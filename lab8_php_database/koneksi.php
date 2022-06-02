@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>koneksi</title>
-</head>
-<body>
 <?php
 $host = "localhost";
 $user = "root";
@@ -18,7 +9,5 @@ if ($conn == false)
 {
     echo "Koneksi ke server gagal.";
     die();
-} else echo "Koneksi berhasil";
+} //else echo "Koneksi berhasil";
 ?>
-</body>
-</html>
